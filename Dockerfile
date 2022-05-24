@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM arm64v8/ubuntu:18.04
 COPY fortress/package /fortress/package
 COPY package_bsps.sh /package_bsps.sh
 COPY entrypoint.sh /entrypoint.sh
